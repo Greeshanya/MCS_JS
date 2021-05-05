@@ -1,5 +1,18 @@
 @import url(reset.css);
 
+
+body {
+	background-color: grey;
+}
+
+.imageBlock {
+	width: 500px;
+	height: 500px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: content;
+}
+
 .page {
   height: 100vh;
 }
